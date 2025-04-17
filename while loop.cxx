@@ -21,7 +21,7 @@ int main() {
 		cin >>num; //make sure a condition is here so the ths cout won't go in indefinetly'
                                	}
 	
-	while (num <= 10) {
+	while (num == 10) {
 		cout << "You win!" <<endl;
 		
 		++num; //create UPDATE so the loop knows when to end
